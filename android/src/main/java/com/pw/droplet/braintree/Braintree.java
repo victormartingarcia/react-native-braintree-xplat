@@ -3,27 +3,28 @@ package com.pw.droplet.braintree;
 import java.util.Map;
 import java.util.HashMap;
 
-import com.braintreepayments.api.interfaces.BraintreeCancelListener;
+import com.braintreecv1payments.api.interfaces.BraintreeCancelListener;
 import com.google.gson.Gson;
 
 import android.content.Intent;
 import android.content.Context;
 import android.app.Activity;
 
-import com.braintreepayments.api.ThreeDSecure;
+import com.braintreecv1payments.api.ThreeDSecure;
 import com.braintreepayments.api.PaymentRequest;
-import com.braintreepayments.api.models.PaymentMethodNonce;
+import com.braintreecv1payments.api.models.PaymentMethodNonce;
 import com.braintreepayments.api.BraintreePaymentActivity;
-import com.braintreepayments.api.BraintreeFragment;
-import com.braintreepayments.api.exceptions.InvalidArgumentException;
-import com.braintreepayments.api.exceptions.BraintreeError;
-import com.braintreepayments.api.exceptions.ErrorWithResponse;
-import com.braintreepayments.api.models.CardBuilder;
-import com.braintreepayments.api.Card;
-import com.braintreepayments.api.PayPal;
-import com.braintreepayments.api.interfaces.PaymentMethodNonceCreatedListener;
-import com.braintreepayments.api.interfaces.BraintreeErrorListener;
-import com.braintreepayments.api.models.CardNonce;
+import com.braintreecv1payments.api.BraintreeFragment;
+import com.braintreecv1payments.api.BraintreeBrowserSwitchActivity;
+import com.braintreecv1payments.api.exceptions.InvalidArgumentException;
+import com.braintreecv1payments.api.exceptions.BraintreeError;
+import com.braintreecv1payments.api.exceptions.ErrorWithResponse;
+import com.braintreecv1payments.api.models.CardBuilder;
+import com.braintreecv1payments.api.Card;
+import com.braintreecv1payments.api.PayPal;
+import com.braintreecv1payments.api.interfaces.PaymentMethodNonceCreatedListener;
+import com.braintreecv1payments.api.interfaces.BraintreeErrorListener;
+import com.braintreecv1payments.api.models.CardNonce;
 
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReactApplicationContext;
