@@ -11,9 +11,9 @@ import android.content.Context;
 import android.app.Activity;
 
 import com.braintreecv1payments.api.ThreeDSecure;
-import com.braintreepayments.api.PaymentRequest;
+import com.braintreecv1payments.api.PaymentRequest;
 import com.braintreecv1payments.api.models.PaymentMethodNonce;
-import com.braintreepayments.api.BraintreePaymentActivity;
+import com.braintreecv1payments.api.BraintreePaymentActivity;
 import com.braintreecv1payments.api.BraintreeFragment;
 import com.braintreecv1payments.api.BraintreeBrowserSwitchActivity;
 import com.braintreecv1payments.api.exceptions.InvalidArgumentException;
